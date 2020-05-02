@@ -1,62 +1,89 @@
+/*
+Title: Project WIP V1
+Name: Jaclyn Williams
+Date: 5/2/2020
+Purpose: CSS page
+*/
 /*General Information*/
   /*gen*/
-header {
-  background-color:#0d0d1c;
-  color:#ffffff;
-  font-size:1.5em;
-  text-align:center;
-  font-family:Verdana;
-}
-nav {
-  font-size:.8em;
-}
-body {
-  background-color:#f8faf8;
-  color:#000000;
-  font-size:.8em;
-  font-family:Verdana;
-}
-h1 {
-  color:#f12a22;
-  size:2em;
-  font-family:Helvetica;
-}
-
-h2 {
-  color:#fa4a22;
-  size:1.5em;
-  font-family:Helvetica;
-}  
-footer {
-  color:#306060;
-  text-align:center;
-  font-family:Verdana,cursive;
-}
-  /*lists*/
-nav ul{
-  list-style-type:none;
-  margin:0;
-  padding:0;
-}
-/*Link Information*/
-  /*unvisited*/
-nav a:link {
-  color:#2a7aaa;
-}
-a:link {
-  color:#2a7aaa;
-}
-  /*visited*/
-nav a:visited {
-  color:#245580;
-}
-a:visited {
-  color:#245580;
-}
-  /*hover*/
-nav a:hover{
-  color:#8fd6e3;
-}
-a:hover{
-  color:#8fd6e3;
-}
+  header {
+    background-color:#0d0d1c;
+    color:#ffffff;
+    font-size:1.5em;
+    text-align:center;
+    font-family:Verdana;
+    border-radius:5px;
+    border-style:double;
+    padding:10px;
+  }
+  nav {
+    font-size:.8em;
+  }
+  body {
+    background-color:#f8faf8;
+    color:#000000;
+    font-size:.8em;
+    font-family:Verdana;
+  }
+  p {
+    padding-top:0;
+    padding-left:15;
+    padding-right:15;
+    padding-bottom:5;
+  }
+  h1 {
+    color:#f12a22;
+    size:2em;
+    font-family:Helvetica;
+  }
+  
+  h2 {
+    color:#fa4a22;
+    size:1.5em;
+    font-family:Helvetica;
+  }  
+  footer {
+    background-color:#eeeeee;
+    color:#306060;
+    text-align:center;
+    font-family:Verdana,cursive;
+  }
+    /*lists, images*/
+  nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+  }
+  img {
+    max-width:450px;
+    width:100%;
+    border: 2px solid;
+    border-color:#ffffff;
+    border-radius:5px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    
+  }
+  /*Link Information*/
+    /*unvisited*/
+  nav a:link {
+    color:#2a7aaa;
+  }
+  a:link {
+    color:#2a7aaa;
+  }
+    /*visited*/
+  nav a:visited {
+    color:#8c9dac;
+  }
+  a:visited {
+    color:#245580;
+  }
+    /*hover*/
+  nav a:hover{
+    color:#8fd6e3;
+  }
+  a:hover{
+    color:#8fd6e3;
+  }
