@@ -1,0 +1,62 @@
+/*General Information*/
+  /*gen*/
+header {
+  background-color:#0d0d1c;
+  color:#ffffff;
+  font-size:1.5em;
+  text-align:center;
+  font-family:Verdana;
+}
+nav {
+  font-size:.8em;
+}
+body {
+  background-color:#f8faf8;
+  color:#000000;
+  font-size:.8em;
+  font-family:Verdana;
+}
+h1 {
+  color:#f12a22;
+  size:2em;
+  font-family:Helvetica;
+}
+
+h2 {
+  color:#fa4a22;
+  size:1.5em;
+  font-family:Helvetica;
+}  
+footer {
+  color:#306060;
+  text-align:center;
+  font-family:Verdana,cursive;
+}
+  /*lists*/
+nav ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+/*Link Information*/
+  /*unvisited*/
+nav a:link {
+  color:#2a7aaa;
+}
+a:link {
+  color:#2a7aaa;
+}
+  /*visited*/
+nav a:visited {
+  color:#245580;
+}
+a:visited {
+  color:#245580;
+}
+  /*hover*/
+nav a:hover{
+  color:#8fd6e3;
+}
+a:hover{
+  color:#8fd6e3;
+}
