@@ -27,19 +27,19 @@ Purpose: CSS page
   }
   p {
     padding-top:0;
-    padding-left:15;
-    padding-right:15;
-    padding-bottom:5;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:5px;
   }
   h1 {
     color:#f12a22;
-    size:2em;
+    font-size:2em;
     font-family:Helvetica;
   }
   
   h2 {
     color:#fa4a22;
-    size:1.5em;
+    font-size:1.5em;
     font-family:Helvetica;
   }  
   footer {
