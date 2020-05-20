@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/*
+Title: Project WIP V1
+Name: Jaclyn Williams
+Date: 5/2/2020
+Purpose: CSS page
+*/
+
+/*General Information*/
+  /*gen*/
+  html {
+    background-color:#377a6a;
+    height: 100%;
+  }
+body {
+    background-color:#f8faf8;
+    color:"red";
+    font-size:1em;
+    font-family:sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    width: 90%;
+    overflow: visible;
+    box-shadow: rgba(0, 0, 0, 0.2) 5px 0px 14px, rgba(0, 0, 0, 0.2) -5px 0px 10px;
+    background-image: url(cs_bgtexture_body.png);
+    background-repeat: repeat;
+  }
+  header {
+    background-color:#0d0d1c;
+    color:#ffffff;
+    font-size:2em;
+    text-align:center;
+    font-family:Arial;
+    border-radius:5px;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-shadow: rgba(0,0,0,0.2) -3px -3px 7px, rgba(0,0,0,0.2) 3px 3px 7px;
+  }
+  header > nav {
+    font-size:.8em;
+  }
+  
+  section#leftColumn > p {
+    padding-top: 10px;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-bottom: 10px;
+    height: 100%;
+  }
+  section#introParagraph > p {
+    padding-top: 10px;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-bottom: 10px;
+    height: 100%;
+    text-align: center;
+  }
+  section#introParagraph > h1 {
+    text-align:center;
+  }
+  body > aside {
+    float: right;
+    margin-top: 5px;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-top: 10px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 2.5%;
+    width: 33%;
+    background-image: linear-gradient(#e6edea 50%, #b6d9cf 100%);
+    border-radius:10px;
+    height: auto;
+    font-size: 0.8em;
+    opacity: 0.9;
+    transition: 0.3s;
+  }
+  body > aside:hover {
+    opacity: 1.0;
+  }
+  body > section#leftColumn {
+    float: clear;
+    padding-top: 5px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 2.5%;
+  }
+  h1 {
+    padding-left: 2.5%;
+    padding-top: 2.5%;
+    color:#f12a22;
+    font-size:2em;
+    font-family:Helvetica;
+  }
+  
+  h2 {
+    padding-left: 4%;
+    color:#fa6028;
+    font-size:1.5em;
+    font-family:Helvetica;
+  }  
+  footer {
+    background-color:#eeeeee;
+    color:#306060;
+    text-align:center;
+    font-family:Verdana,cursive;
+    font-size: 0.8em;
+    float: clear;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+  }
+    /*index list*/
+  nav#listTopics > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;  
+    text-align: center; 
+  }
+    /*Lists, images*/
+  nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+  }
+  nav > ul > li {
+    display: inline;
+}
+
+  aside > img {
+    max-width:350px;
+    width:80%;
+    border: 2px solid;
+    border-color:#ffffff;
+    border-radius:5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+  }
+  /*Link Information*/
+
+  section#leftColumn > ul {
+    margin-left: 10%;
+  }
+    /*unvisited*/
+  nav a:link {
+    color:#2a7aaa;
+    transition: 0.3s;
+  }
+  a:link {
+    color:#2a7aaa;
+    transition: 0.3s;
+  }
+    /*visited*/
+  nav a:visited {
+    color:#8c9dac;
+  }
+  a:visited {
+    color:#245580;
+  }
+    /*hover*/
+  nav a:hover{
+    color:#8fd6e3;
+  }
+  a:hover{
+    color:#8fd6e3;
+  }
